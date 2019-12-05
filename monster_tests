@@ -1,11 +1,12 @@
 from monster_class import *
+# Test file
 
 #Setup
 name = 'Paul'
 skills = ['scary', 'hairy', 'loud']
 monster1 = Monster(name, skills)
 
-#testing scare_attack()
+#testing the methods
 
 print('checking if monster can scare_attack properly')
 print(monster1.scare_attack() == 'RAAAHHH')
@@ -14,4 +15,6 @@ print('Checking if the monster is able to eat')
 print(monster1.eat()=='Foooood...NOM NOM NOM')
 
 print('Checking if the monster can sleep')
-print(monster1.sleep()=='')
+print(monster1.sleep()=='ZZzzzz')
+
+print(name, monster1.skills )

@@ -1,4 +1,4 @@
-
+# Class file
 
 class Monster():
     def __init__(Self, name, skills=[]):
