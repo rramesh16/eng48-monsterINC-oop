@@ -1,0 +1,17 @@
+from monster_class import *
+
+#Setup
+name = 'Paul'
+skills = ['scary', 'hairy', 'loud']
+monster1 = Monster(name, skills)
+
+#testing scare_attack()
+
+print('checking if monster can scare_attack properly')
+print(monster1.scare_attack() == 'RAAAHHH')
+
+print('Checking if the monster is able to eat')
+print(monster1.eat()=='Foooood...NOM NOM NOM')
+
+print('Checking if the monster can sleep')
+print(monster1.sleep()=='')
